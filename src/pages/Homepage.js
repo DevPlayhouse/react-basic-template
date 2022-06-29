@@ -5,7 +5,9 @@ import Hero from "layouts/HomePage/Hero";
 
 export default function Homepage() {
   return (
-    <Container>
+    <Container
+      title="React Basic Template"
+    >
       <Hero />
     </Container>
   );

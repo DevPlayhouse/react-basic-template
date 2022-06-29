@@ -5,7 +5,9 @@ import Hero from "layouts/ErrorPage/Hero";
 
 export default function PageNotFound() {
   return (
-    <Container>
+    <Container
+      title="Oops! Page Not Found"
+    >
       <Hero />
     </Container>
   );
