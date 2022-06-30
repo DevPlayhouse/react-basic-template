@@ -1,6 +1,6 @@
 import React from "react";
-import "./error.style.css";
+import style from "./error.module.css";
 
 export default function Hero() {
-  return <div>Page not found</div>;
+  return <div className={style}>Page not found</div>;
 }

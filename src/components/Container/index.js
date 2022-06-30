@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Footer, MetaTags } from "components";
-import "./container.style.css";
+import style from "./container.module.css";
 
 export default function Container({
   children,
@@ -18,7 +18,7 @@ export default function Container({
         url={url}
       />
       <Header />
-      <main>{children}</main>
+      <main className={style.main}>{children}</main>
       <Footer />
     </>
   );

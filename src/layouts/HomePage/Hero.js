@@ -1,6 +1,6 @@
 import React from "react";
-import "./home.style.css";
+import style from "./home.module.css";
 
 export default function Hero() {
-  return <div>Homepage</div>;
+  return <div className={style}>Homepage</div>;
 }
