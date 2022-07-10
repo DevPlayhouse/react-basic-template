@@ -1,14 +1,12 @@
 import React from "react";
-import { Header, Footer, MetaTags } from "components";
-import style from "./container.module.css";
 
-export default function Container({
-  children,
-  title,
-  description,
-  image,
-  url,
-}) {
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import MetaTags from "@/components/MetaTags";
+
+import style from "./layout.module.css";
+
+export default function Layout({ children, title, description, image, url }) {
   return (
     <>
       <MetaTags

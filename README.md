@@ -24,6 +24,8 @@ cd react-basic-template
 yarn || npm install
 ```
 
+*Rename file .env.example to .env*
+
 ### Jalankan server
 
 ```bash
